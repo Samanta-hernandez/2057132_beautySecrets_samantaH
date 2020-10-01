@@ -75,7 +75,9 @@ body{
 .bg-danger-a{
     background: #e1fffe;
 }
-
+.imgC{
+    left: -700px;
+}
 /* Ingresar */
 
 .w-25{
@@ -118,4 +120,8 @@ body{
 .hp{
    bottom: 0;
    left: 0;
+}
+ 
+.over{
+    overflow: hidden;
 }
