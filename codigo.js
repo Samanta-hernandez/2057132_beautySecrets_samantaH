@@ -17,12 +17,15 @@ $(document).ready(function(){
 $(window).scroll(function(){
 
     var posicionScroll = $(window).scrollTop();
-    var movimiento = posicionScroll * 0.6;
+    // controla la escala
+    var movimiento = posicionScroll * 0.001;
+    // controla la rotación
+    var rotacion = posicionScroll * 0.02;
     // saber la posicion
     console.log(posicionScroll); 
 
     // animar image
-    $("#sec1 img").css("transform","scale(1.2)");
+    $("#sec1 img").css("transform","scale(" + (1+movimiento) + ") rotateZ(" + (rotacion) + "deg)");
 
 });
 });
