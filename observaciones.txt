@@ -1,0 +1,5 @@
+-Falta el archivo con los integrantes del grupo. (ok)
+-Debe organizar el código js en su respectiva carpeta.
+-Debe corregir el orden de llamado a los archivos js en los archivos html.
+-Algunas imagenes se ven pixeladas.
+-Deben exportar los diseños en formatos jpg.
