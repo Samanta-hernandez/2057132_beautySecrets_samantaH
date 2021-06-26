@@ -125,3 +125,15 @@ body{
 .over{
     overflow: hidden;
 }
+
+.video{
+    width: 560px;
+    height: 315px;
+}
+@media screen and (max-width:640px){
+    .video{
+        height: 200px;
+        width: 320px;
+    }
+   
+}
