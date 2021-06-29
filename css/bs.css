@@ -1,6 +1,6 @@
 @font-face{
-    font-family:fuente;
-    src: url(Hello.otf);
+    src: url("fuentes/Hello.otf");
+    font-family: "Hello";
 }
 
 h1{
